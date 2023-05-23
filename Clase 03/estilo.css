@@ -44,3 +44,11 @@
     background-color: beige;
     width: 65%;
 }
+
+.footer{
+    margin: auto;
+}
+
+.footer-icon img{
+    width: 15%;
+}
