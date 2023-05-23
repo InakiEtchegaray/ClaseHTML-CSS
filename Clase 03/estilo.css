@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    margin: auto;
+    width: 70%;
+
+}
+
+.header{
+    height: 200px;
+}
+
+#icon{
+    width: 200px;
+}
+
+.header-icon{
+    margin-left: 150px;
+}
+
+.main{
+    background-color: bisque;
+}
+
+.main-lista{
+    float: left;
+    background-color: aquamarine;
+    width: 30%;
+    height: max-content;
+}
+
+.main-lista li{
+    font-size: larger;
+    text-align: center;
+    margin: 15px;
+    height: 30px;
+}
+.main-content{
+    font-size: large;
+    float: right;
+    background-color: beige;
+    width: 65%;
+}
