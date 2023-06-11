@@ -1,8 +1,53 @@
-.caja{
-    display:flexbox;
-    background-color: red;
-    width: 50px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.flotante{
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.flotante button{
     height: 50px;
-    margin: 15px;
-    flex-direction:column;
+    width: 50px;
+    border-radius:100%;
+    background-color: #00bb2d;
+    border: none;
+}
+
+.flotante button i{
+    font-size: 30px;
+    color: white;
+    
+}
+
+.flotante button:hover {
+    background-color: white;
+
+}
+
+.flotante button:hover > i {
+    color: #00bb2d;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    height: 20vh;
+}
+
+header .logo img{
+    max-width: 40%;
+}
+
+
+header .logo{
+    padding: 10px;
+    width: 20%;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
