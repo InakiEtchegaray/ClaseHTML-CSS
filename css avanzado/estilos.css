@@ -127,7 +127,7 @@ main .card .precio:hover{
     color: #3f3333;
     font-size: 22px;
     cursor: pointer;
-    background-color: bisque;
+    background-color: rgba(231, 231, 231, 0.877);
     border-radius: 10px;
     border: 2px solid blue;
 }
